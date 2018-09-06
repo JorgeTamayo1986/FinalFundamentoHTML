@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_12">
+   <stop offset="0.408875" stop-color="#00007f"/>
+   <stop offset="1" stop-color="#ffff80"/>
+  </linearGradient>
+  <linearGradient id="svg_17">
+   <stop offset="0.717468" stop-color="#00007f"/>
+   <stop offset="1" stop-color="#ffff80"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <text fill="url(#svg_17)" font-family="Serif" font-size="24" font-style="italic" id="svg_1" stroke="#000000" stroke-dasharray="5,5" stroke-linejoin="round" stroke-width="0" text-anchor="middle" transform="rotate(-0.253345 322.528 192.343) matrix(9.22911 0 0 7.48553 -1290.98 -674.809)" x="174.135686" xml:space="preserve" y="123.952878">JET</text>
+  <path d="m509.160085,107.536055c5.472221,0 10.617319,2.142309 14.482364,6.028688c3.873935,3.888157 6.003799,9.068812 6.003799,14.581924l8.435897,0c0,-16.01487 -12.976525,-29.041175 -28.923837,-29.041175l0,8.430563l0.001778,0zm0.010667,-14.948161c19.508345,0 35.375654,15.956201 35.375654,35.567662l8.432341,0c0,-24.260538 -19.652351,-44.000003 -43.809773,-44.000003l0,8.432341l0.001778,0zm11.662694,29.67409c0,3.226797 -2.615217,5.843792 -5.840236,5.843792s-5.840236,-2.616995 -5.840236,-5.843792c0,-3.223242 2.615217,-5.840236 5.840236,-5.840236s5.840236,2.615217 5.840236,5.840236z" fill="url(#svg_12)" id="svg_5" stroke="#000000" stroke-dasharray="5,5" stroke-linecap="round" stroke-width="0"/>
+ </g>
+</svg>
