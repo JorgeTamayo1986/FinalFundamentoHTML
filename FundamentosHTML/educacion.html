@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user=scalable=no">
+    <meta name="author" content="Jorge Tamayo">
+    <meta name="keywords" content="HTML,XML,CSS,javascript">
+    <meta name="description" content="Hoja de vida Digital Jorge Tamayo">
+    <title>Educación</title>
+  </head>
+  <body>
+      <header>
+        <svg>
+          <image xlink:href="img/logo.svg" width = "300px" heigth = "300px" />
+        </svg>
+        <h1>Hoja de Vida</h1>
+      </header>
+    <form autocomplete="on" name="DatosPersonales">
+      <fieldset>
+        <legend><h2>Datos Personales</h2></legend>
+        <h2>Nombres:</h2><h3>Jorge Eduardo</h3>
+        <h2>Apellidos:</h2><h3>Tamayo Ramos</h3>
+        <h2>Fecha y lugar de Nacimiento:</h2><h3>Pácora, Caldas Julio 15 de 1986</h3>
+      </fieldset>
+    <nav>
+      <ul>
+        <li style="display: inline; padding-right: 20px;"><a href="index.html">Inicio</a></li>
+        <li style="display: inline; padding-right: 20px;"><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <fieldset>
+      <legend><h2>Educación</h2></legend>
+      <table border="2">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2005</td>
+            <td>CENSA</td>
+            <td>Medellín</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>SENA</td>
+            <td>Medellín</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>NextU</td>
+            <td>Virtual</td>
+            <td>En curso</td>
+          </tr>
+        </tbody>
+      </table>
+      </fieldset>
+      <fieldset>
+        <legend><h2>Agregar Estudios</h2></legend>
+        <p>
+          <label for="year">Año</label></br>
+          <select class="" name="year" id="year">
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+          </select>
+        </p>
+      <p>
+        <label for="institution">Institución</label></br>
+        <input type="text" name="institution" id="institution"  required>
+      </p>
+      <p>
+        <label for="place">Lugar</label></br>
+        <textarea name="place" rows="8" cols="80" id="place"></textarea>
+      </p>
+      <p>
+      <input type="reset" name="submit" id="submit" value="Enviar">
+      </p>
+        <fieldset>
+    </form>
+  </body>
+  <footer>
+    <ul >
+      <li style="display: inline; padding-right: 20px;"><a href="https://www.facebook.com/jorge.tamayoramos"><img src="img/facebook.png" style='margin-right:15px;' width="50"/></a></li>
+      <li style="display: inline; padding-right: 20px;"><a href=" mailto:jtamayoramos@gmail.com"><img src="img/gmail.jpg" style='margin-right:15px;' width="50"/></a></li>
+  </footer>
+</html>
